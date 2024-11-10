@@ -9,6 +9,7 @@
 
 Some examples are given below:
 */
+
 //Numbers
 const n1=100
 const n2=100.3
@@ -19,11 +20,33 @@ const isNotLoggedin=false
 
 //symbol
 const id= Symbol('123')
-const anotherId= symbol('123')
+const anotherId= Symbol('123')
 
 console.log(id === anotherId)
+
+//BigInt
+const bigNumber= 12345678991111111111133n
+
+//Non-Primitive
 
 /*
 Note: Javascript is dynamically typed language.
       Typescript is statically typed language.
 */
+
+const heros=["shaktiman", "nagraj", "doga"]
+//array
+
+//key value pairs(example of objects)
+let myObj={
+    name: "Paritosh",
+    age: "22",
+}
+
+//functions
+const myFunc = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof myFunc);
+//we use typeof operator/funcion to find the value of a datatype in javascript
